@@ -1,9 +1,9 @@
 #!/bin/bash
 
-readonly TAG=sbcl-2.2.3
+readonly TAG=sbcl-2.3.8
 readonly REPOSITORY=https://github.com/sbcl/sbcl.git
-readonly DISABLED_FEATURES=":largefile :sb-ldb"
-readonly ENABLED_FEATURES=":sb-thread :sb-core-compression :fancy :sb-xref-for-internals :sb-show-assem"
+readonly DISABLED_FEATURES=":largefile :sb-ldb :gencgc"
+readonly ENABLED_FEATURES=":sb-thread :sb-core-compression :fancy :sb-xref-for-internals :sb-show-assem :sb-futex :sb-source-locations  :package-local-nicknames :mark-region-gc"
 
 ###
 

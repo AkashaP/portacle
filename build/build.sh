@@ -1,7 +1,7 @@
 #!/bin/bash
 
 readonly TAG=$(git describe --tags)
-readonly REPOSITORY=https://github.com/Shinmera/portacle
+readonly REPOSITORY=https://gitlab.com/akashadutchie/portacle
 
 ##
 

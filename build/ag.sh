@@ -1,7 +1,7 @@
 #!/bin/bash
 
-readonly TAG=2.2.0
-readonly REPOSITORY=https://github.com/ggreer/the_silver_searcher
+readonly TAG=portacle
+readonly REPOSITORY=https://github.com/AkashaP/ag.git
 readonly CONFIGURE_OPTIONS=("")
 
 ###
